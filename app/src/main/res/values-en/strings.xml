@@ -1,0 +1,31 @@
+<resources>
+    <string name="about_title">For Android \nSayingStory</string>
+    <string name="version_number">2.0.0</string>
+    <string name="app_name">SayingStory</string>
+    <string name="alarm_on">ON</string>
+    <string name="alarm_off">OFF</string>
+    <string name="alarm_on_text">PushAlarm is On.</string>
+    <string name="alarm_off_text">PushAlarm is OFF.</string>
+    <string name="about">About</string>
+    <string name="alarm_setting">PushAlarm Setting</string>
+    <string name="login">Login Setting</string>
+    <string name="login_title">SayingStory Login</string>
+    <string name="evaluate">Evaluate</string>
+    <string name="quote">Saying</string>
+    <string name="writing_saying">Writing Saying</string>
+     <string name="setting">Settings</string>
+    <string name="comments_text">Comments</string>
+    <string name="suggestion_comment">Be the first to comment...</string>
+    <string name="add_comment">Add a comment...</string>
+    <string name="login_message">Welcome. Please sign in by google account within 1seconds. After login, We want you to communicate with other people about quotes.</string>
+    <string name="loading">Loading…</string>
+    <string name="service">Service</string>
+    <string name="version">Version</string>
+    <string name="service_content">We offer you a quote, famous line by push message every day. You can enjoy it.</string>
+    <string name="license">We made SayingStory using open source for android.</string>
+    <string name="post">POST</string>
+    <string name="post_menu">Post to SayingStory</string>
+    <string name="hint_writing_user">Write a saying..(no more than 300 characters)</string>
+    <string name="wrote">You wrote it..</string>
+    <string name="restriction_hangul">Hangul and some special characters are restricted..</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="young.com.sayingstory">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="young.com.sayingstory.EnglishQuoteApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon5"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="young.com.sayingstory.ui.main.main_screen.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- [START firebase_service] -->
+        <service android:name="young.com.sayingstory.receiver.fcm.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- [END firebase_service] -->
+        <!-- [START firebase_iid_service] -->
+        <service android:name="young.com.sayingstory.receiver.fcm.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name="young.com.sayingstory.ui.setting.setting_screen.SettingActivity" />
+        <activity android:name="young.com.sayingstory.ui.main.detailed_quote.DetailedQuoteActivity" />
+        <activity android:name=".ui.main.user_writing_quote.UserWritingQuoteActivity" />
+        <activity
+            android:name="young.com.sayingstory.ui.setting.login.LoginDialogActivity"
+            android:theme="@style/AppDialogTheme" />
+        <activity android:name="young.com.sayingstory.ui.setting.about.AboutActivity"></activity>
+    </application>
+
+</manifest>

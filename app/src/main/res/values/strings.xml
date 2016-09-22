@@ -1,0 +1,31 @@
+<resources>
+    <string name="about_title">For Android \nSayingStory</string>
+    <string name="version_number">2.0.0</string>
+    <string name="app_name">SayingStory</string>
+    <string name="alarm_on">ON</string>
+    <string name="alarm_off">OFF</string>
+    <string name="alarm_on_text">푸시알람이 켜졌습니다.</string>
+    <string name="alarm_off_text">푸시알람이 꺼졌습니다.</string>
+    <string name="about">About</string>
+    <string name="alarm_setting">푸시알람 설정</string>
+    <string name="login">로그인 설정</string>
+    <string name="login_title">잉글리쉬 세잉스토리 로그인</string>
+    <string name="evaluate">리뷰하기</string>
+    <string name="setting">환경 설정</string>
+    <string name="quote">세잉</string>
+    <string name="writing_saying">세잉 남기기</string>
+    <string name="version">버전</string>
+    <string name="comments_text">의견</string>
+    <string name="suggestion_comment">첫번째 코멘트를 달아 주세요..</string>
+    <string name="add_comment">코멘트를 입력하세요..</string>
+    <string name="login_message">안녕하세요. 구글 계정으로 1초만에 로그인할 수 있습니다. 다른 사람과 명언에 관한 의견을 나눠보세요.</string>
+    <string name="service">서비스</string>
+    <string name="service_content">잉글리쉬 세잉스토리는 매일 1개의 영어 명언을 제공하고 있습니다.</string>
+    <string name="license">Android 앱인 잉글리쉬 세잉스토리는 오픈소스 소프트웨어를 사용해 만들었습니다.</string>
+    <string name="loading">Loading…</string>
+    <string name="post">게시하기</string>
+    <string name="post_menu">SayingStory에 게시하기</string>
+    <string name="hint_writing_user">글을 작성하세요..(300자 이내)</string>
+    <string name="wrote">글을 작성했습니다..</string>
+    <string name="restriction_hangul">한글 및 일부 특수문자 사용을 제한합니다.</string>
+</resources>
